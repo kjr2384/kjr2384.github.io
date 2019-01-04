@@ -11,20 +11,32 @@
 
   <body>
     <div class="typewriter" style='max-height: 200px;'>
-  <h1>Krystal Rubio</h1>
+  <a name="home"><h1>Krystal Rubio</h1></a>
 </div>
-<a name="home"><div class="topnav"></a>
+<div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#About">About</a>
   <a href="#Work">Work</a>
   <a href="#Contact">Contact</a>
 </div>
 <a  href="#home"><button class="button">Return to top</button></a>
-    <p class=b> <br>Hard work will triumph over talent if talent does not work hard. </p>
+    <p class=b> <br><br>Hard work will triumph over talent if talent does not work hard. </p>
+    <table>
+      <tr>
+          <td style="width:100%;">
+            <p> <br> </p>
+          </td>
+          <td style="width:1px;"/>
+      </tr>
+    </table>
     <div class="container">
 <a name="About"><img src="about.jpg" alt="About" class="image" align="middle"></a>
   <div class="overlay">Hello, I am Krystal. I am working towards an Asscociate's Degree with an expected graduation date of Spring 2020. </div>
   </div>
+  <button class="collapsible">Click here for more about me</button>
+<div class="content">
+  <p class="c">I am from the Richmond area in Virginia. I attend a high school with a specialty focus on Computer Science and will graduate with in Associate's Degree of Computer Science in 2020. Following graduation I will attend a four year school to further my education.</p>
+</div>
   <table>
     <tr>
         <td style="width:100%;">
@@ -36,6 +48,10 @@
   <div class="container">
   <a name="Work"><img src="work.jpg" alt="Work" class="image" align="middle"></a>
   <div class="overlay"> My projects include the following languages: Java, Python, HTML, and CSS. I am furthering my exposure outside of college by interning at MAXXPotential.</div>
+  </div>
+  <button class="collapsible">Click here for more about my work</button>
+  <div class="content">
+    <p class="c">My projects in Java involve organizing large amounts of data and mathmatical calculations. I am able to use Python turtle as well as creating 'for loops' and number generators. HTML and CSS I have used to create this portfolio. At MAXXPotential I have had the role of Security Analyst and Quality Assurance Specialist. Both of those jobs required extensive research for the success of my work. </p>
   </div>
   <table>
     <tr>
@@ -49,5 +65,25 @@
     <a name="Contact"><img src="contact.jpg" alt="Contact" class="image" align="middle"></a>
     <div class="overlay">Click <a href="https://docs.google.com/forms/d/e/1FAIpQLScUdgh4DP1D5Jnpu-DFUqsQ5u6outsNLzkCanYOyOgexbIM9w/viewform?usp=sf_link">here</a> to send me your contact information.  Thank you for your interest!</div>
   </div>
+  <button class="collapsible">Click here for MAXXPotential's information</button>
+  <div class="content">
+    <p class="c">201 W. 7th St. Richmond, VA 23224 (804) 745-6486</p>
+  </div>
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
 </html>
