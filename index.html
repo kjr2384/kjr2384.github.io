@@ -6,13 +6,14 @@
     <meta name="author" content="Krystal Rubio">
     <meta charset="utf-8">
     <link rel = "stylesheet" type = "text/css" href = "main.css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <title>Krystal Rubio</title>
   </head>
 
   <body>
-    <div class="typewriter" style='max-height: 200px;'>
-  <a name="home"><h1>Krystal Rubio</h1></a>
-</div>
+    <div class="typewriter" style='max-height: 600px;'>
+    <a name="home"><h1>Krystal Rubio</h1></a>
+    </div>
 <div class="topnav">
   <a class="active" href="#home">Home</a>
   <a href="#About">About</a>
@@ -20,41 +21,68 @@
   <a href="#Contact">Contact</a>
 </div>
 <a  href="#home"><button class="button">Return to top</button></a>
-    <p class=b> <br><br>Hard work will triumph over talent if talent does not work hard. </p>
-<table>
-    <tr>
-        <td style="width:100%;">
-          <p> <br> </p>
-        </td>
-        <td style="width:1px;"/>
-    </tr>
-</table>
-  <div class="container">
-<a name="About"><img src="about.jpg" alt="About" class="image"></a>
-<div class="overlay">Hello, I am Krystal. I am working towards an Asscociate's Degree with an expected graduation date of Spring 2020. <button class="button button2"onclick="myFunction()">More</button>
-  </div>
-</div>
-<p class="c" id="About"></p>
-  <div class="container">
-  <a name="Work"><img src="work.jpg" alt="Work" class="image"></a>
-  <div class="overlay"> My projects include the following languages: Java, Python, HTML, and CSS. I am furthering my exposure outside of college by interning at MAXXPotential. <button class="button button2"onclick="myFunction2()">More</button> </div>
-  </div>
-<p class="c" id="Work"></p>
-
+<p class=b> <br><br>Hard work will triumph over talent if talent does not work hard. </p>
 <div class="container">
-  <a name="Contact"><img src="contact.jpg" alt="Contact" class="image"></a>
-  <div class="overlay">Click <a href="https://docs.google.com/forms/d/e/1FAIpQLScUdgh4DP1D5Jnpu-DFUqsQ5u6outsNLzkCanYOyOgexbIM9w/viewform?usp=sf_link">here</a> to send me your contact information.  Thank you for your interest!</div>
-</div>
-<script>
-function myFunction() {
-  document.getElementById("About").innerHTML = "I am from the Richmond area in Virginia. I attend a high school with a specialty focus on Computer Science and will graduate with in Associate's Degree of Computer Science in 2020. Following graduation I will attend a four year school to further my education.";
-}
-</script>
-<script>
-function myFunction2() {
-  document.getElementById("Work").innerHTML = "My projects in Java involve organizing large amounts of data and mathematical calculations. I am able to use Python turtle as well as creating 'for loops' and number generators. HTML and CSS I have used to create this portfolio. At MAXXPotential I have had the role of Security Analyst and Quality Assurance Specialist. Both of those jobs required extensive research for the success of my work.";
-}
-</script>
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-6">
+      <table>
+          <tr>
+              <td style="width:100%;">
+                <p> <br> <br> <br> </p>
+              </td>
+              <td style="width:1px;"/>
+          </tr>
+      </table>
+        <div class="container">
+      <a name="About"><img src="about.jpg" alt="About" class="image"></a>
+      <div class="overlay">Hello, I am Krystal. I am working towards an Asscociate's Degree with an expected graduation date of Spring 2020. <button class="button button2"onclick="myFunction()">More</button>
+        </div>
+      </div>
+      <p class="c" id="About"></p>
+      <table>
+          <tr>
+              <td style="width:100%;">
+                <p> <br> <br> <br> </p>
+              </td>
+              <td style="width:1px;"/>
+          </tr>
+      </table>
+        <div class="container">
+        <a name="Work"><img src="work.jpg" alt="Work" class="image"></a>
+        <div class="overlay"> My projects include the following languages: Java, Python, HTML, and CSS. I am furthering my exposure outside of college by interning at MAXXPotential. <button class="button button2"onclick="myFunction2()">More</button> </div>
+        </div>
+      <p class="c" id="Work"></p>
+      <table>
+          <tr>
+              <td style="width:100%;">
+                <p> <br> <br> <br> </p>
+              </td>
+              <td style="width:1px;"/>
+          </tr>
+      </table>
+      <div class="container">
+        <a name="Contact"><img src="contact.jpg" alt="Contact" class="image"></a>
+        <div class="overlay">Click <a href="https://docs.google.com/forms/d/e/1FAIpQLScUdgh4DP1D5Jnpu-DFUqsQ5u6outsNLzkCanYOyOgexbIM9w/viewform?usp=sf_link">here</a> to send me your contact information.  Thank you for your interest!</div>
+      </div>
+      <script>
+      function myFunction() {
+        document.getElementById("About").innerHTML = "I am from Central Virginia. I attend a high school with a specialty focus on Computer Science and will graduate with an Associate's Degree of Computer Science in 2020. Following graduation I will attend a four year school to further my education.";
+      }
+      </script>
+      <script>
+      function myFunction2() {
+        document.getElementById("Work").innerHTML = "My projects in Java involve organizing large amounts of data and mathematical calculations. I am able to use Python turtle as well as creating 'for loops' and number generators. I have used CSS and HTML for this portfolio. I also completed an internship with MAXXPotential. I had various roles in their departments. " +
+        "I began as a System Administrator. In this position I was responsible for responsible for the upkeep, configuration, and reliable operation of computer systems. The following job I had was Quality Assurance Specialist. I was tasked with ensuring our website met the company standards, as well as creating a Quality Assurance Policy. The final job I had in the internship " +
+        "was Data Quality Specialist. This job made me responsible for driving data quality across online, batch, and big data analytics environments. I grew exponentionally in my skills as a leader, coder, and employee. My goal was always to provide my best work." ;
+      }
+      </script>
+
+    </div>
+    <div class="col">
+    </div>
+  </div>
 
 </body>
 </html>

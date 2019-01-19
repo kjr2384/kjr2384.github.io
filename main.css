@@ -15,6 +15,10 @@ p.c {
   font-size: 24px;
   text-align:center;
 }
+h.a {
+font-family: cursive;
+font-size: 34;
+}
 * {box-sizing: border-box;}
 
 .container {
@@ -23,7 +27,6 @@ width: auto;
 height: auto;
 position: relative;
 justify-content: center;
-margin-left: 30%;
 }
 
 .image {
@@ -58,7 +61,7 @@ opacity: 100;
 }
 
 body {
-background-color: #ddb3fc;
+background-color: #ffffff;
 background-repeat: no-repeat;
 }
 body {
@@ -68,7 +71,7 @@ justify-content: center;
 
 .typewriter h1 {
 color: #07000F;
-font-family: Verdana;
+font-family:fantasy;
 overflow: hidden;
 border-right: .15em solid white;
 white-space: nowrap;
@@ -89,7 +92,7 @@ to { width: 20% }
 
 @keyframes blink-caret {
 from, to { border-color: transparent }
-50% { border-color: white }
+50% { border-color: transparent }
 }
 
 /* Add a black background color to the top navigation */
